@@ -2,7 +2,7 @@
 | ------------- | ------------------------------------------------------------------------------ |
 | Program Name  | **Tutwrk: Create a Live Highway Traffic Rotator using JavaScript - RSS / XML** |
 | File Name     | README.md                                                                      |
-| Date Created  | 06/16/22                                                                       |
+| Date Created  | 06/26/22                                                                       |
 | Date Modified | --                                                                             |
 | Version       | 1.00                                                                           |
 | Programmer    | Eric Hepperle                                                                  |
@@ -25,14 +25,14 @@
 
 ## Description:
 
-Accessing data from an API is one of the most common things you will do in web development, and the way to access APIs is with fetch. Fetch is function built into JavaScript that allows you to query any URL/API to get back data. The most important part is that fetch is asynchronous so it will run in the background and let you know when it finishes using promises. In this video I will show you exactly how to use fetch, and all of the common mistakes people make using fetch so you can get up and running in just six minutes.
+N/A
 
 ###  Concepts Covered:
 
 - What the fetch API is
 - How to use the fetch API
-- How to handle API response errors
-- How to use JSON data with fetch
+- Parsing XML with JavaScript fetch API
+- Consuming / Parsing XML with fetch
 
 ### Materials/References:
 
@@ -69,7 +69,7 @@ Accessing data from an API is one of the most common things you will do in web d
 - **Channel:** [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
 
 ## TAGS:
-JavaScript, ES6, Fetch API, Web Scraping
+JavaScript, ES6, Fetch API, RSS, XML Parsing, Traffic Rotator, Raddy
 
 ## VOCAB:
 - Tutwrk: This is term I use to indicate the work I did when following a tutorial. This term is differentiated from tutorials I may create/author in the future that will be designated with the term "Tutorial".
