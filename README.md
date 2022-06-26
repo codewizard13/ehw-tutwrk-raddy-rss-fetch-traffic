@@ -8,7 +8,7 @@
 | Programmer    | Eric Hepperle                                                                  |
 
 ## Purpose:
-Tutorial Work: Learn FETCH API in with JavaScript.
+**Tutorial Work:** Learn how to manipulate XML data using JavaScript by creating an RSS traffic rotator, step-by-step.
 
 ## Description:
 
