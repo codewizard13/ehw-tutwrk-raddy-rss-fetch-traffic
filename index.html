@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="author" content="Eric Hepperle" />
+
+    <title>TUTWRK | Fetch API</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--<style></style>-->
+  </head>
+
+  <body>
+    <div id="wrapper" class="container-fluid">
+      <div id="ehw-top-head">
+        <div id="header-img"></div>
+        <h2><?php echo $page_title; ?></h2>
+        <p>
+          Filename:
+          <span class="property"><?php echo basename(__FILE__); ?></span>
+        </p>
+      </div>
+      <!-- /ehw-top-head div -->
+
+      <main>
+        <div>
+          <h3>PURPOSE:</h3>
+
+          <p>
+            This is a demo showing that Eric L Hepperle knows how to add an
+            element to the top of the DOM.
+          </p>
+
+          <h3>STEPS:</h3>
+
+          <p>
+            These are the steps to prepend a div to the body. Note that
+            prepending adds to top of page, whereas appending adds to bottom of
+            page.
+          </p>
+
+          <ol>
+            <li>Define JSON object</li>
+            <li>Create new DIV element</li>
+            <li>Add id "ehw-content" to div</li>
+            <li>Create text node</li>
+            <li>Add text node to div (appendChild)</li>
+            <li>Prepend div to body</li>
+          </ol>
+        </div>
+      </main>
+    </div>
+    <!-- /wrappper -->
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
