@@ -1,11 +1,11 @@
-| INFO PROPERTY | VALUE                                    |
-| ------------- | ---------------------------------------- |
-| Program Name  | **Tutwrk: Learn Fetch API In 6 Minutes** |
-| File Name     | README.md                                |
-| Date Created  | 06/16/22                                 |
-| Date Modified | --                                       |
-| Version       | 1.00                                     |
-| Programmer    | Eric Hepperle                            |
+| INFO PROPERTY | VALUE                                                                          |
+| ------------- | ------------------------------------------------------------------------------ |
+| Program Name  | **Tutwrk: Create a Live Highway Traffic Rotator using JavaScript - RSS / XML** |
+| File Name     | README.md                                                                      |
+| Date Created  | 06/16/22                                                                       |
+| Date Modified | --                                                                             |
+| Version       | 1.00                                                                           |
+| Programmer    | Eric Hepperle                                                                  |
 
 ## Purpose:
 Tutorial Work: Learn FETCH API in with JavaScript.
