@@ -36,9 +36,9 @@ Accessing data from an API is one of the most common things you will do in web d
 
 ### Materials/References:
 
-Fetch Article: https://blog.webdevsimplified.com/202...
-Learn Promises In 10 Minutes Video: https://youtu.be/DHvZLI7Db8E
-Async Await Tutorial: https://youtu.be/V_Kr9OSfDeU
+- Fetch Article: https://blog.webdevsimplified.com/202...
+- Learn Promises In 10 Minutes Video: https://youtu.be/DHvZLI7Db8E
+- Async Await Tutorial: https://youtu.be/V_Kr9OSfDeU
 
 ### Sample Code from Tutorial:
 
@@ -59,10 +59,9 @@ Async Await Tutorial: https://youtu.be/V_Kr9OSfDeU
     
 ## Demonstrates:
 * JavaScript
-* ReactJS
-* ReactDOM
-* slice()
-* immutable objects
+* Fetch API
+* XML Parsing
+* RSS
 
 ## Based on this tutorial:
 - **Title:** Learn Fetch API In 6 Minutes
