@@ -1,0 +1,7 @@
+Tutorial Info:
+- Title: Create a Live Highway Traffic Rotator using JavaScript - RSS / XML
+- Full URL: https://www.youtube.com/watch?v=iPUnS49EomI
+- Base URL: https://www.youtube.com/watch?v=iPUnS49EomI
+- Channel: Awesome Open Source
+- Channel URL: https://www.youtube.com/c/AwesomeOpenSource
+- Avatar URL: https://yt3.ggpht.com/ytc/AKedOLRoYQU9YzUWgOceIRbwnjzsWP9V-ckmp4QC9wcq=s68-c-k-c0x00ffffff-no-rj

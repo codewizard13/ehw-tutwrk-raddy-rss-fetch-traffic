@@ -64,15 +64,15 @@ N/A
 * RSS
 
 ## Based on this tutorial:
-- **Title:** Learn Fetch API In 6 Minutes
-- **URL:** https://www.youtube.com/watch?v=cuEtnrL9-H0
-- **Channel:** [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+- **Title:** Create a Live Highway Traffic Rotator using JavaScript - RSS / XML
+- **URL:** https://www.youtube.com/watch?v=iPUnS49EomI
+- **Channel:** [Raddy](https://www.youtube.com/c/RaddyDev)
 
 ## TAGS:
-JavaScript, ES6, Fetch API, RSS, XML Parsing, Traffic Rotator, Raddy
+`JavaScript` `ES6` `Fetch API` `RSS` `XML Parsing` `Traffic Rotator` `Raddy`
 
 ## VOCAB:
-- Tutwrk: This is term I use to indicate the work I did when following a tutorial. This term is differentiated from tutorials I may create/author in the future that will be designated with the term "Tutorial".
+- **Tutwrk:** This is term I use to indicate the work I did when following a tutorial. This term is differentiated from tutorials I may create/author in the future that will be designated with the term "Tutorial".
 
 ## Resources:
 - N/A
