@@ -24,7 +24,10 @@ function displayTrafficList(x) {
     let li = document.createElement('li')
     li.className = "listItem"
 
-    li.innerHTML = `${i + 1} RSS Feed`
+    li.innerHTML =
+      `
+    <h3>${item[i]}</h3>
+      `
 
     list.appendChild(li)
   }
