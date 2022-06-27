@@ -26,8 +26,8 @@ function displayTrafficList(x) {
 
     li.innerHTML =
       `
-    <h3>${item[i]}</h3>
-      `
+    <h3>${item[i].getElementsByTagName('title')}</h3>
+        `
 
     list.appendChild(li)
   }
