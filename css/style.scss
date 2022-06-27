@@ -1,0 +1,13 @@
+// style.scss
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+$primary-color: #396362;
+$secondary-color: #4b8e8d;
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
