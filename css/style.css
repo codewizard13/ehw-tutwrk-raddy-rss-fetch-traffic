@@ -17,4 +17,10 @@ div.rss-rotator {
       align-self: flex-end;
   background-color: #fff;
 }
+
+div.rss-rotator .title {
+  padding: 20px;
+  background-color: #396362;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

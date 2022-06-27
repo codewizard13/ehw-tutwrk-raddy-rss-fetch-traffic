@@ -19,4 +19,10 @@ div.rss-rotator {
   width: 100%;
   align-self: flex-end;
   background-color: #fff;
+
+  .title {
+    padding: 20px;
+    background-color: $primary-color;
+    color: #fff;
+  }
 }
