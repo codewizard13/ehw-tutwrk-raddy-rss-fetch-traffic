@@ -7,8 +7,12 @@ loadXMLFeed = () => {
     .then(data => {
       let parser = new DOMParser()
       let xml = parser.parseFromString(data, "application/xml")
-      console.log(xml)
+      displayTrafficList(xml)
     })
 }
 
 document.addEventListener("DOMContentLoaded", loadXMLFeed)
+
+function displayTrafficList(x) {
+  console.log(x)
+}
