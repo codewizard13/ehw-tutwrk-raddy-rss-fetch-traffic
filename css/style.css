@@ -28,5 +28,12 @@ div.rss-rotator ul {
   list-style: none;
   height: 300px;
   overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+div.rss-rotator li {
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
 }
 /*# sourceMappingURL=style.css.map */

@@ -31,5 +31,12 @@ div.rss-rotator {
     height: 300px;
     // Create scroll on right:
     overflow: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
   }
 }
