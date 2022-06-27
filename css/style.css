@@ -23,4 +23,10 @@ div.rss-rotator .title {
   background-color: #396362;
   color: #fff;
 }
+
+div.rss-rotator ul {
+  list-style: none;
+  height: 300px;
+  overflow: auto;
+}
 /*# sourceMappingURL=style.css.map */

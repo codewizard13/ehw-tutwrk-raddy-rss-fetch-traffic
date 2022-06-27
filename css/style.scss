@@ -25,4 +25,11 @@ div.rss-rotator {
     background-color: $primary-color;
     color: #fff;
   }
+
+  ul {
+    list-style: none;
+    height: 300px;
+    // Create scroll on right:
+    overflow: auto;
+  }
 }
