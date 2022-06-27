@@ -10,10 +10,13 @@ body {
   display: flex;
   height: 100vh;
   font-family: 'Quicksand', sans-serif;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: 0px -100px;
 }
 
 div.rss-rotator {
   width: 100%;
   align-self: flex-end;
-  
+  background-color: #fff;
 }
