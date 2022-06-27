@@ -11,4 +11,4 @@ loadXMLFeed = () => {
     })
 }
 
-loadXMLFeed()
+document.addEventListener("DOMContentLoaded", loadXMLFeed)
