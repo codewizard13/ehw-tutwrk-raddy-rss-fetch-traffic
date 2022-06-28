@@ -14,7 +14,7 @@ loadXMLFeed = () => {
 document.addEventListener("DOMContentLoaded", loadXMLFeed)
 
 function displayTrafficList(x) {
-
+  console.log(x)
   let list = document.getElementById('item')
   let item = x.getElementsByTagName('item')
   let itemNum = x.getElementsByTagName('item').length
@@ -24,12 +24,20 @@ function displayTrafficList(x) {
     let li = document.createElement('li')
     li.className = "listItem"
 
+    let thisItem = item[i].getElementsByTagName('title')[0]
+
     li.innerHTML =
       `
-    <h3>${item[i].getElementsByTagName('title')}</h3>
+    <h3>${item[i].getElementsByTagName('title')[0]}</h3>
         `
 
     list.appendChild(li)
+    // using `wholeText` will allow us to read CDATA when it's located in
+    //  a new line, as per:
+    // https://stackoverflow.com/questions/1736122/read-cdata-in-xml-from-javascript
+    const cdataValue = thisItem?.firstChild?.wholeText?.trim();
+    console.log(item[i].getElementsByTagName('title')[0])
+    console.log(cdataValue)
   }
 
 }
