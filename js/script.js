@@ -30,10 +30,13 @@ function displayTrafficList(x) {
     let title = item[i].getElementsByTagName('title')[0]
     title = title?.firstChild?.wholeText?.trim()
 
+    let description = item[i].getElementsByTagName('description')[0]
+    description = description?.firstChild?.wholeText?.trim()
 
     li.innerHTML =
       `
     <h3>${title}</h3>
+    <p>${description}</p>
         `
 
     list.appendChild(li)
