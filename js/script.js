@@ -24,18 +24,16 @@ function displayTrafficList(x) {
     let li = document.createElement('li')
     li.className = "listItem"
 
-    let thisItem = item[i].getElementsByTagName('title')[0]
-
-    // using `wholeText` will allow us to read CDATA when it's located in
-    //  a new line, as per:
+    // using `wholeText` with optional chaining operator (? after variable) will
+    // allow us to read CDATA when it's located in a new line, as per:
     // https://stackoverflow.com/questions/1736122/read-cdata-in-xml-from-javascript
-    const cdataValue = thisItem?.firstChild?.wholeText?.trim();
-    console.log(item[i].getElementsByTagName('title')[0])
-    console.log(cdataValue)
+    let title = item[i].getElementsByTagName('title')[0]
+    title = title?.firstChild?.wholeText?.trim()
+
 
     li.innerHTML =
       `
-    <h3>${cdataValue}</h3>
+    <h3>${title}</h3>
         `
 
     list.appendChild(li)
